@@ -1,0 +1,1817 @@
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "sidebar nav nav nav nav"
+    "sidebar main main main main"
+    "sidebar edu1 edu2 edu2 edu2"
+    "sidebar edu3 edu4 edu4 edu4"
+    "sidebar main2 main2 main2 main2"
+    "sidebar exp1 exp2 exp2 exp2"
+    "sidebar exp3 exp4 exp4 exp4"
+    "sidebar exp5 exp6 exp6 exp6"
+    "sidebar main3 main3 main3 main3"
+    "sidebar ref1 ref2 ref2 ref2"
+    "sidebar footer footer footer footer";
+    grid-gap: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.sidebar{
+    background-color: lightblue;
+    grid-area:sidebar;
+}
+.circular--square {
+    border-radius: 60%;
+    padding: 30px;
+    margin-left: 55px;
+  }
+.nobullet {
+ list-style-type: none;
+ margin-left: 35px;
+}
+.data1 {
+    font-size: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+  }
+.data2 {
+    font-size: 15px;
+    text-align: left;
+    position: relative; right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+  }
+  .bar {
+    display:block;
+    width:360px;
+    height: 40px;
+    font-size: 30px;
+    float: none;
+    margin-left:5px;
+    border:1px solid #000;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(100, 96, 96);
+    color: lightblue;
+    text-transform: uppercase;
+    margin: auto;
+    padding-top: 20px;  
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+  }
+.bar1 {
+    display:block;
+    width: 360px;
+    height: 40px;
+    font-size: 30px;
+    float: none;
+    margin-left:5px;
+    border:1px solid #000;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(100, 96, 96);
+    color: lightblue;
+    text-transform: uppercase;
+    margin: auto;
+    padding-top: 20px;  
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 700px;
+  }
+.fa-theater-masks {
+    margin: 7px;
+}
+.fa-biking {
+    margin: 7px; 
+} 
+.fa-book-reader {
+    margin: 7px; 
+}
+#bullet {
+    margin-left: 20px;
+    font-size: 13px;
+    
+  }
+.bullet1 {
+    margin-left: 70px;
+    font-size: 13px;
+    list-style-type: none;
+  }
+.bullet2 {
+    margin-left: 87px;
+    font-size: 13px;
+    list-style-type: none;
+    
+}
+#bullet3 {
+  margin-left: 20px;
+  font-size: 13px;
+  list-style-type: none;   
+}
+.bullet4 {
+  margin-left: 80px;
+  font-size: 13px; 
+}
+.bullet5 {
+  margin-left: 80px;
+  font-size: 13px;
+  list-style-type: none; 
+}
+
+.date2{ 
+    padding: 3px;  
+    padding-bottom: 70px;
+    margin-left: 40px;
+    font-size: 13px;
+    
+
+  }
+.icon {
+padding: 30px;
+}
+
+
+.circle-icon {
+    border-radius: 50%;
+    border: solid;
+    padding: 20px;
+    
+
+}
+nav{
+     background-color: white;
+     grid-area:nav;
+}
+
+.name {
+    text-align: justify;
+    font-weight: 200;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+.redtext {
+    text-transform: uppercase;
+    color: lightblue;
+    padding-left: 50px;
+  }
+.main{ 
+    background-color: white;
+    grid-area: main;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+}
+.name2 {
+    font-size: 30px;
+    padding-left: 50px;
+}
+#line {
+    border-bottom:  2px solid lightblue;
+    position: relative;
+    width: 900px;
+    
+    
+  }
+  #line2 {
+    border-bottom:  2px solid lightblue;
+    position: relative;
+    width: 100px; 
+    margin-left: 50px;
+  }
+.caps {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    list-style-type: none;
+    margin-bottom: 10px ;
+  }
+.content1 {
+    padding-left: 20px;
+    font-size: 13px;
+    list-style-type: none; 
+    margin-bottom: 10px ;
+    
+}
+.content2 {
+    padding-left: 20px;
+    font-size: 13px;
+    list-style-type: none;  
+}
+.edu1{
+    background-color: white;
+    grid-area:edu1;
+    text-align: justify;
+}
+.edu2{
+    background-color: white;
+    grid-area:edu2;
+    padding-right: 100px;
+    max-width: 500px;
+
+   
+}
+.edu3{
+    background-color: white;
+    grid-area:edu3;
+    padding-left: 75px;
+}
+.edu4{
+    background-color: white;
+    grid-area:edu4;
+    padding-right: 100px;
+    max-width: 500px;
+
+}
+.main2{
+    background-color: white;
+    grid-area:main2;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+}
+.exp1{
+    background-color: white;
+    grid-area:exp1;
+}
+.exp2{
+    background-color: white;
+    grid-area:exp2;
+    padding-right: 100px;
+    max-width: 500px;
+}
+.exp3{
+    background-color: white;
+    grid-area:exp3;
+}
+.exp4{
+    background-color: white;
+    grid-area:exp4;
+    padding-right: 100px;
+    max-width: 500px;
+}
+.exp5{
+    background-color: white;
+    grid-area:exp5;
+}
+.exp6{
+    background-color: white;
+    grid-area:exp6;
+    padding-right: 100px;
+    max-width: 500px;
+
+}
+.main3{
+    background-color: white;
+    grid-area:main3;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+}
+
+.ref1 {
+    background-color: white;
+    grid-area: ref1;
+    margin-left: 10px;
+    
+}
+.ref2 {
+    background-color: white;
+    grid-area:ref2;
+}
+#end1 {
+    list-style-type: none; 
+    margin-bottom: 10px ;
+}
+#end2 {
+    list-style-type: none;
+    
+  
+}
+.bull {
+    font-size: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+@media only screen and (max-width: 3200px) {
+
+    .name {
+        text-align:justify;
+    }
+    .redtext {
+        text-align:justify;
+      }
+    .name2 {
+        text-align: justify;
+    }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 50px;
+      }
+      .bullet1 {
+        margin-left: 70px;
+        font-size: 13px;
+        list-style-type: none;
+      }
+    .bullet2 {
+          margin-left: 88px;
+          font-size: 13px;
+          list-style-type: none;  
+      }
+    
+    .bullet4 {
+        margin-left: 80px;
+        font-size: 13px; 
+    }
+    .bullet5 {
+        margin-left: 80px;
+        font-size: 13px;
+        list-style-type: none; 
+    }
+.edu1 {
+    width: 300px;
+}
+.edu2 {
+    width: 400px;
+}
+.edu4 {
+    width: 400px;
+}
+.exp2 {
+    width: 400px;
+}
+.exp4 {
+    width: 400px;
+}
+.exp6 {
+    width: 400px;
+}
+.ref1 {
+    width: 400px;
+}
+.ref2 {
+    width: 400px;
+}
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .name {
+        text-align:justify;
+    }
+    .redtext {
+        text-align:justify;
+      }
+    .name2 {
+        text-align: justify;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 680px;
+      }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-right: 100px;
+      }
+      .bullet1 {
+        margin-left: 70px;
+        font-size: 13px;
+        list-style-type: none;
+      }
+    .bullet2 {
+          margin-left: 88px;
+          font-size: 13px;
+          list-style-type: none;
+          
+      }
+    
+    .bullet4 {
+        margin-left: 80px;
+        font-size: 13px; 
+    }
+    .bullet5 {
+        margin-left: 80px;
+        font-size: 13px;
+        list-style-type: none; 
+    }
+.edu1 {
+    width: 300px;
+}
+.edu2 {
+    width: 400px;
+}
+.edu4 {
+    width: 400px;
+}
+.exp2 {
+    width: 400px;
+}
+.exp4 {
+    width: 400px;
+}
+.exp6 {
+    width: 400px;
+}
+.ref1 {
+    width: 400px;
+}
+.ref2 {
+    width: 400px;
+}
+}
+@media only screen and (max-width: 1074px) {
+
+    .name {
+        text-align: center;
+    }
+    .redtext {
+        text-align: center;
+      }
+    .name2 {
+        text-align: center;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 680px;
+        
+      }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 235px;
+      }
+      .bullet1 {
+        margin-left: 70px;
+        font-size: 13px;
+        list-style-type: none;
+      }
+    .bullet2 {
+          margin-left: 88px;
+          font-size: 13px;
+          list-style-type: none;
+          
+      }
+    
+    .bullet4 {
+        margin-left: 80px;
+        font-size: 13px; 
+    }
+    .bullet5 {
+        margin-left: 80px;
+        font-size: 13px;
+        list-style-type: none; 
+    }
+.edu1 {
+    width: 300px;
+}
+.edu2 {
+    width: 400px;
+}
+.edu4 {
+    width: 400px;
+}
+.exp2 {
+    width: 400px;
+}
+.exp4 {
+    width: 400px;
+}
+.exp6 {
+    width: 400px;
+}
+.ref1 {
+    width: 400px;
+}
+.ref2 {
+    width: 400px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .name {
+        text-align: center;
+    }
+    .redtext {
+        text-align: center;
+      }
+    .name2 {
+        text-align: center;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 680px;
+        
+      }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 235px;
+      }
+      .bullet1 {
+        margin-left: 70px;
+        font-size: 13px;
+        list-style-type: none;
+      }
+    .bullet2 {
+          margin-left: 88px;
+          font-size: 13px;
+          list-style-type: none;
+          
+      }
+    
+    .bullet4 {
+        margin-left: 80px;
+        font-size: 13px; 
+    }
+    .bullet5 {
+        margin-left: 80px;
+        font-size: 13px;
+        list-style-type: none; 
+    }
+.edu1 {
+    width: 300px;
+}
+.edu2 {
+    width: 400px;
+}
+.edu4 {
+    width: 400px;
+}
+.exp2 {
+    width: 400px;
+}
+.exp4 {
+    width: 400px;
+}
+.exp6 {
+    width: 400px;
+}
+.ref1 {
+    width: 400px;
+}
+.ref2 {
+    width: 400px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .name {
+        text-align: center;
+        margin-right: 20px;
+    }
+    .redtext {
+        text-align: center;
+      }
+    .name2 {
+        text-align: center;
+    }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 200px;
+      }
+    .circular--square {
+        border-radius: 50%;
+        padding: 60px;
+        margin-left: 210px;
+      }
+    .bar {
+        text-align: center;
+        margin-left: 1px;
+        width: 730px; 
+        text-align: center;
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+        display: block;
+
+    }
+    .bar1 {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+        margin-left: 1px;
+        width: 730px; 
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 580px;
+        
+      }
+    .data1 {
+        text-align: center;
+    }
+    .data2 {
+        text-align: center;
+        margin-left: 60px;
+    }
+    .icon {
+        margin-left: 200px;
+    }
+        
+    .edu1 {       
+        height: 30px;
+        font-weight: bold; 
+    }
+    .edu2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .edu3 {
+        padding-left: 70px;
+        height: 30px;
+        font-weight: bold;  
+    }
+    .edu4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .exp1 {
+        height: 30px;
+        font-weight: bold; 
+    }
+    .exp2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .exp3 {
+        padding-left: 5px;
+        height: 30px;
+        font-weight: bold; 
+    }
+    .exp4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 68px;
+    }
+    .exp5 {
+        padding-left: 5px;
+        height: 30px;
+        font-weight: bold; 
+    }
+    .exp6 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 68px;
+    }
+    .ref1 {
+        margin-left: 70px;
+    }
+    .ref2 {
+        margin-left: 70px;
+    }
+
+ .container{
+    display: inline;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "edu1"
+    "edu2"
+    "edu3"
+    "edu4"
+    "main2"
+    "exp1"
+    "exp2"
+    "exp3"
+    "exp4"
+    "exp5"
+    "exp6"
+    "main3"
+    "ref1"
+    "ref2"
+    "footer"
+    ;
+}
+}
+@media only screen and (max-width: 690px) {
+    
+    .name {
+        text-align: center;
+        margin-right: 20px;
+    }
+    .redtext {
+        text-align: center;
+      }
+    .name2 {
+        text-align: center;
+    }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 200px;
+      }
+    .circular--square {
+        border-radius: 50%;
+        padding: 60px;
+        margin-left: 170px;
+      }
+    .bar {
+        text-align: center;
+        margin-left: 1px;
+        width: 650px; 
+        text-align: center;
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+        display: block;
+
+    }
+    .bar1 {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+        margin-left: 1px;
+        width: 650px; 
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 580px;
+        
+      }
+    .data1 {
+        text-align: center;
+    }
+    .data2 {
+        text-align: center;
+        margin-left: 60px;
+    }
+    .icon {
+        margin-left: 160px;
+    }
+        
+    .edu1 {       
+        height: 70px;
+        font-weight: bold;
+        
+        
+    }
+    .edu2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .edu3 {
+        padding-left: 60px;
+        height: 70px;
+        font-weight: bold;  
+    }
+    .edu4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .exp1 {
+        padding-left: 0px;
+        height: 70px;
+        font-weight: bold; 
+    }
+    .exp2 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .exp3 {
+        padding-left: 0px;
+        height: 70px;
+        font-weight: bold; 
+    }
+    .exp4 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .exp5 {
+        padding-left: 0px;
+        height: 70px;
+        font-weight: bold; 
+    }
+    .exp6 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .ref1 {
+        margin-left: 70px;
+    }
+    .ref2 {
+        margin-left: 70px;
+    }
+
+ .container{
+    display: inline;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "edu1"
+    "edu2"
+    "edu3"
+    "edu4"
+    "main2"
+    "exp1"
+    "exp2"
+    "exp3"
+    "exp4"
+    "exp5"
+    "exp6"
+    "main3"
+    "ref1"
+    "ref2"
+    "footer"
+    ;
+}
+}
+
+@media only screen and (max-width: 650px) {
+    
+    .name {
+        text-align: center;
+        margin-right: 20px;
+    }
+    .redtext {
+        text-align: center;
+      }
+    .name2 {
+        text-align: center;
+    }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 200px;
+      }
+    .circular--square {
+        border-radius: 50%;
+        padding: 60px;
+        margin-left: 170px;
+      }
+    .bar {
+        text-align: center;
+        margin-left: 1px;
+        width: 610px; 
+        text-align: center;
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+        display: block;
+
+    }
+    .bar1 {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+        margin-left: 1px;
+        width: 610px; 
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 580px;
+        
+      }
+    .data1 {
+        text-align: center;
+    }
+    .data2 {
+        text-align: center;
+        margin-left: 60px;
+    }
+    .icon {
+        margin-left: 130px;
+    }
+        
+    .edu1 {       
+        height: 70px;
+        font-weight: bold;
+        
+        
+    }
+    .edu2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .edu3 {
+        padding-left: 60px;
+        height: 70px;
+        font-weight: bold;  
+    }
+    .edu4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .exp1 {
+        padding-left: 0px;
+        height: 70px;
+        font-weight: bold; 
+    }
+    .exp2 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .exp3 {
+        padding-left: 0px;
+        height: 70px;
+        font-weight: bold; 
+    }
+    .exp4 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .exp5 {
+        padding-left: 0px;
+        height: 70px;
+        font-weight: bold; 
+    }
+    .exp6 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    .ref1 {
+        margin-left: 70px;
+    }
+    .ref2 {
+        margin-left: 70px;
+    }
+
+ .container{
+    display: inline;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "edu1"
+    "edu2"
+    "edu3"
+    "edu4"
+    "main2"
+    "exp1"
+    "exp2"
+    "exp3"
+    "exp4"
+    "exp5"
+    "exp6"
+    "main3"
+    "ref1"
+    "ref2"
+    "footer"
+    ;
+}
+}
+
+@media only screen and (max-width: 590px) {
+    
+    .name {
+        text-align: center;
+    }
+    .redtext {
+        text-align: center;
+      }
+    .name2 {
+        text-align: center;
+    }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 200px;
+      }
+    .circular--square {
+        border-radius: 50%;
+        padding: 60px;
+        margin-left: 120px;
+      }
+    .bar {
+        text-align: center;
+        margin-left: 1px;
+        width:540px; 
+        text-align: center;
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+        display: block;
+
+    }
+    .bar1 {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+        margin-left: 1px;
+        width: 540px; 
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 440px;
+        
+      }
+    .data1 {
+        text-align: center;
+    }
+    .data2 {
+        text-align: center;
+        margin-left: 60px;
+    }
+    .icon {
+        margin-left: 110px;
+    }
+    .edu1 {       
+        height: 30px;
+        font-weight: bold; 
+    }
+    .edu2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .edu3 {
+        padding-left: 70px;
+        height: 30px;
+        font-weight: bold;  
+    }
+    .edu4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .exp1 {
+        height: 30px;
+        font-weight: bold; 
+    }
+    .exp2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .exp3 {
+        padding-left: 5px;
+        height: 30px;
+        font-weight: bold; 
+    }
+    .exp4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 68px;
+    }
+    .exp5 {
+        padding-left: 5px;
+        height: 30px;
+        font-weight: bold; 
+    }
+    .exp6 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 68px;
+    }
+    .ref1 {
+        margin-left: 70px;
+    }
+    .ref2 {
+        margin-left: 70px;
+    }
+
+ .container{
+    display: inline;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "edu1"
+    "edu2"
+    "edu3"
+    "edu4"
+    "main2"
+    "exp1"
+    "exp2"
+    "exp3"
+    "exp4"
+    "exp5"
+    "exp6"
+    "main3"
+    "ref1"
+    "ref2"
+    "footer"
+    ;
+}
+}
+
+
+@media only screen and (max-width: 550px) {
+    
+    .name {
+        text-align: center;
+    }
+    .redtext {
+        text-align: center;
+      }
+    .name2 {
+        text-align: center;
+    }
+    .sidebar {
+        width: 400px;
+    }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 200px;
+      }
+    .circular--square {
+        border-radius: 50%;
+        padding: 60px;
+        margin-left: 50px;
+      }
+    .bar {
+        text-align: center;
+        margin-left: 1px;
+        width: 380px; 
+        text-align: center;
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+        display: block;
+
+    }
+    .bar1 {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+        margin-left: 1px;
+        width: 380px; 
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 440px;
+        
+      }
+    .data1 {
+        text-align: center;
+    }
+    .data2 {
+        text-align: center;
+        margin-left: 60px;
+    }
+    .icon {
+        margin-left: 30px;
+    }
+    
+    .edu1 {       
+        height: 30px;
+        font-weight: bold; 
+    }
+    .edu2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .edu3 {
+        padding-left: 70px;
+        height: 30px;
+        font-weight: bold;  
+    }
+    .edu4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .exp1 {
+        height: 30px;
+        font-weight: bold; 
+    }
+    .exp2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .exp3 {
+        padding-left: 5px;
+        height: 30px;
+        font-weight: bold; 
+    }
+    .exp4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 68px;
+    }
+    .exp5 {
+        padding-left: 5px;
+        height: 30px;
+        font-weight: bold; 
+    }
+    .exp6 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 68px;
+    }
+    .ref1 {
+        margin-left: 70px;
+    }
+    .ref2 {
+        margin-left: 70px;
+    }
+
+ .container{
+    display: inline;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "edu1"
+    "edu2"
+    "edu3"
+    "edu4"
+    "main2"
+    "exp1"
+    "exp2"
+    "exp3"
+    "exp4"
+    "exp5"
+    "exp6"
+    "main3"
+    "ref1"
+    "ref2"
+    "footer"
+    ;
+}
+}
+@media only screen and (max-width: 500px) {
+    
+    .name {
+        text-align: center;
+    }
+    .redtext {
+        text-align: center;
+      }
+    .name2 {
+        text-align: center;
+    }
+    .sidebar {
+        width: 500px;
+    }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 200px;
+      }
+    .circular--square {
+        border-radius: 50%;
+        padding: 60px;
+        margin-left: 90px;
+      }
+    .bar {
+        text-align: center;
+        margin-left: 1px;
+        width: 470px; 
+        text-align: center;
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+        display: block;
+
+    }
+    .bar1 {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+        margin-left: 1px;
+        width: 470px; 
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 440px;
+        
+      }
+    .data1 {
+        text-align: center;
+    }
+    .data2 {
+        text-align: center;
+        margin-left: 60px;
+    }
+    .icon {
+        margin-left: 60px;
+    }
+    
+    .edu1 {       
+        height: 50px;
+        font-weight: bold;
+        
+        
+    }
+    .edu2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+    }
+    .edu3 {
+        padding-left: 60px;
+        padding-top: 40px;
+        height: 50px;
+        font-weight: bold;  
+    }
+    .edu4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+        padding-bottom: 30px;
+    }
+    .exp1 {
+        padding-left: 0px;
+        height: 50px;
+        font-weight: bold; 
+    }
+    .exp2 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+        padding-bottom: 30px;
+    }
+    .exp3 {
+        padding-left: 0px;
+        
+        height: 50px;
+        font-weight: bold; 
+    }
+    .exp4 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+    }
+    .exp5 {
+        padding-left: 0px;
+        height: 70px;
+        font-weight: bold; 
+    }
+    .exp6 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+        padding-bottom: 80px;
+    }
+    .ref1 {
+        margin-left: 70px;
+    }
+    .ref2 {
+        margin-left: 70px;
+    }
+
+ .container{
+    display: inline;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "edu1"
+    "edu2"
+    "edu3"
+    "edu4"
+    "main2"
+    "exp1"
+    "exp2"
+    "exp3"
+    "exp4"
+    "exp5"
+    "exp6"
+    "main3"
+    "ref1"
+    "ref2"
+    "footer"
+    ;
+}
+}
+
+@media only screen and (max-width: 414px) {
+    
+    .name {
+        text-align: center;
+        padding-left: 100px;
+    }
+    .redtext {
+        text-align: center;
+        padding-left: 15px;
+      }
+    .name2 {
+        text-align: center;
+        margin-right: 10px;
+        
+    }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 200px;
+      }
+    .circular--square {
+        border-radius: 50%;
+        padding: 60px;
+        margin-left: 90px;
+      }
+    .sidebar{
+        width: 480px;
+    }
+    .bar {
+        text-align: center;
+        margin-left: 1px;
+        width: 460px; 
+        text-align: center;
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+        display: block;
+
+    }
+    .bar1 {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+        margin-left: 1px;
+        width: 460px; 
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 440px;
+        
+      }
+    .data1 {
+        text-align: center;
+    }
+    .data2 {
+        text-align: center;
+        margin-left: 60px;
+    }
+    .icon {
+        padding:30px;
+    }
+    .edu1 {       
+        height: 50px;
+        font-weight: bold;
+        
+        
+    }
+    .edu2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+    }
+    .edu3 {
+        padding-left: 60px;
+        padding-top: 40px;
+        height: 50px;
+        font-weight: bold;  
+    }
+    .edu4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+        padding-bottom: 30px;
+    }
+    .exp1 {
+        padding-left: 0px;
+        height: 50px;
+        font-weight: bold; 
+    }
+    .exp2 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+        padding-bottom: 30px;
+    }
+    .exp3 {
+        padding-left: 0px;
+        
+        height: 50px;
+        font-weight: bold; 
+    }
+    .exp4 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+    }
+    .exp5 {
+        padding-left: 0px;
+        height: 70px;
+        font-weight: bold; 
+    }
+    .exp6 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+        padding-bottom: 80px;
+    }
+    .ref1 {
+        margin-left: 70px;
+    }
+    .ref2 {
+        margin-left: 70px;
+    }
+
+ .container{
+    display: inline;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "edu1"
+    "edu2"
+    "edu3"
+    "edu4"
+    "main2"
+    "exp1"
+    "exp2"
+    "exp3"
+    "exp4"
+    "exp5"
+    "exp6"
+    "main3"
+    "ref1"
+    "ref2"
+    "footer"
+    ;
+}
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    .name {
+        text-align: center;
+        padding-left: 100px;
+    }
+    .redtext {
+        text-align: center;
+        padding-left: 15px;
+      }
+    .name2 {
+        text-align: center;
+        margin-right: 10px;
+        
+    }
+    #line2 {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 100px; 
+        margin-left: 200px;
+      }
+    .circular--square {
+        border-radius: 50%;
+        padding: 60px;
+        margin-left: 70px;
+      }
+    .sidebar{
+        width: 460px;
+    }
+    .bar {
+        text-align: center;
+        margin-left: 1px;
+        width: 440px; 
+        text-align: center;
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+        display: block;
+
+    }
+    .bar1 {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+        margin-left: 1px;
+        width: 440px; 
+        align-items: center;
+        background-color: rgb(100, 96, 96);
+        color: lightblue;
+        border:1px solid #000;
+        padding: 10px;
+    }
+    #line {
+        border-bottom:  2px solid lightblue;
+        position: relative;
+        width: 440px;
+        
+      }
+    .data1 {
+        text-align: center;
+    }
+    .data2 {
+        text-align: center;
+        margin-left: 60px;
+    }
+    .icon {
+        padding:30px;
+    }
+    .edu1 {       
+        height: 50px;
+        font-weight: bold;
+        
+        
+    }
+    .edu2 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+    }
+    .edu3 {
+        padding-left: 60px;
+        padding-top: 40px;
+        height: 50px;
+        font-weight: bold;  
+    }
+    .edu4 {
+        height: 150px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+        padding-bottom: 30px;
+    }
+    .exp1 {
+        padding-left: 0px;
+        height: 50px;
+        font-weight: bold; 
+    }
+    .exp2 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+        padding-bottom: 30px;
+    }
+    .exp3 {
+        padding-left: 0px;
+        
+        height: 50px;
+        font-weight: bold; 
+    }
+    .exp4 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+    }
+    .exp5 {
+        padding-left: 0px;
+        height: 70px;
+        font-weight: bold; 
+    }
+    .exp6 {
+        height: 170px;
+        text-align: justify;
+        margin-left: 60px;
+        width: 250px;
+        padding-bottom: 80px;
+    }
+    .ref1 {
+        margin-left: 70px;
+    }
+    .ref2 {
+        margin-left: 70px;
+    }
+
+ .container{
+    display: inline;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "edu1"
+    "edu2"
+    "edu3"
+    "edu4"
+    "main2"
+    "exp1"
+    "exp2"
+    "exp3"
+    "exp4"
+    "exp5"
+    "exp6"
+    "main3"
+    "ref1"
+    "ref2"
+    "footer"
+    ;
+}
+}
