@@ -6,12 +6,12 @@
     grid-template-rows: auto;
     grid-template-areas: 
     "sidebar header header"
-    "sidebar nav"
-    "sidebar main"
+    "sidebar nav nav"
+    "sidebar main main"
     "sidebar date info"
     "sidebar location info"
-    "sidebar main1"
-    "sidebar footer";
+    "sidebar main1 main1"
+    "sidebar footer footer";
     grid-gap: 10px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
