@@ -5,9 +5,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "sidebar header"
+    "sidebar header header"
     "sidebar nav"
     "sidebar main"
+    "sidebar date info"
+    "sidebar location info"
     "sidebar main1"
     "sidebar footer";
     grid-gap: 10px;
@@ -222,4 +224,16 @@ nav{
     font-size: 15px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif; 
+}
+.date{
+    grid-area: date;
+    font-size: 12px;
+}
+.location{
+    grid-area: location;
+    font-size: 12px;
+}
+.content{
+    grid-area: info;
+    font-size: 12px;
 }
