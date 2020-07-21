@@ -5,16 +5,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto ;
     grid-template-areas: 
+    "sidebar header header header header"
     "sidebar nav nav nav nav"
     "sidebar main main main main"
-    "sidebar edu1 edu2 edu2 edu2"
-    "sidebar edu3 edu4 edu4 edu4"
-    "sidebar main2 main2 main2 main2"
-    "sidebar exp1 exp2 exp2 exp2"
-    "sidebar exp3 exp4 exp4 exp4"
-    "sidebar exp5 exp6 exp6 exp6"
-    "sidebar main3 main3 main3 main3"
-    "sidebar ref1 ref2 ref2 ref2"
+    "sidebar main main main main"
+    "sidebar main1 main1 main1 main1"
+    "sidebar main1 main1 main1 main1"
     "sidebar footer footer footer footer";
     grid-gap: 10px;
     padding: 20px;
@@ -146,6 +142,9 @@ padding: 30px;
     
 
 }
+.header{
+    grid-area:header;
+}
 nav{
      background-color: white;
      grid-area:nav;
@@ -196,104 +195,27 @@ nav{
     list-style-type: none;
     margin-bottom: 10px ;
   }
-.content1 {
-    padding-left: 20px;
-    font-size: 13px;
-    list-style-type: none; 
-    margin-bottom: 10px ;
-    
-}
-.content2 {
-    padding-left: 20px;
-    font-size: 13px;
-    list-style-type: none;  
-}
-.edu1{
-    background-color: white;
-    grid-area:edu1;
-    text-align: justify;
-}
-.edu2{
-    background-color: white;
-    grid-area:edu2;
-    padding-right: 100px;
-    max-width: 500px;
 
-   
-}
-.edu3{
+.main1{
     background-color: white;
-    grid-area:edu3;
-    padding-left: 75px;
-}
-.edu4{
-    background-color: white;
-    grid-area:edu4;
-    padding-right: 100px;
-    max-width: 500px;
-
-}
-.main2{
-    background-color: white;
-    grid-area:main2;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 50px;
-}
-.exp1{
-    background-color: white;
-    grid-area:exp1;
-}
-.exp2{
-    background-color: white;
-    grid-area:exp2;
-    padding-right: 100px;
-    max-width: 500px;
-}
-.exp3{
-    background-color: white;
-    grid-area:exp3;
-}
-.exp4{
-    background-color: white;
-    grid-area:exp4;
-    padding-right: 100px;
-    max-width: 500px;
-}
-.exp5{
-    background-color: white;
-    grid-area:exp5;
-}
-.exp6{
-    background-color: white;
-    grid-area:exp6;
-    padding-right: 100px;
-    max-width: 500px;
-
-}
-.main3{
-    background-color: white;
-    grid-area:main3;
+    grid-area:main1;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 50px;
 }
 
-.ref1 {
+.footer{
     background-color: white;
-    grid-area: ref1;
-    margin-left: 10px;
-    
+    grid-area:footer;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
 }
-.ref2 {
-    background-color: white;
-    grid-area:ref2;
-}
-#end1 {
+.end1 {
     list-style-type: none; 
     margin-bottom: 10px ;
 }
-#end2 {
+.end2 {
     list-style-type: none;
     
   
