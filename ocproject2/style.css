@@ -19,7 +19,7 @@
     
 
 }
-.header{
+header{
   grid-area:header;
 }
 nav{
@@ -70,7 +70,7 @@ nav{
 .excontent3{
   grid-area: excontent3;
 }
-.footer{
+footer{
   background-color: white;
   grid-area:footer;
   font-size: 30px;
