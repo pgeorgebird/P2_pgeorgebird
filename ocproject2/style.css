@@ -8,12 +8,12 @@
     "sidebar header header header header"
     "sidebar nav nav nav nav nav"
     "sidebar main main main main"
-    "sidebar date1 content1 content1 content1"
-    "sidebar date2 content2 content2 content2"
+    "sidebar eddate1 edcontent1 edcontent1 edcontent1"
+    "sidebar eddate2 edcontent2 edcontent2 edcontent2"
     "sidebar main1 main1 main1 main1"
-    "sidebar date3 content3 content3 content3"
-    "sidebar date4 content4 content4 content4"
-    "sidebar date5 content5 content5 content5"
+    "sidebar exdate1 excontent1 excontent1 excontent1"
+    "sidebar exdate2 excontent2 excontent2 excontent2"
+    "sidebar exdate3 excontent3 excontent3 excontent3"
     "sidebar footer footer footer footer";
     grid-gap: 10px;
     padding: 20px;
@@ -36,16 +36,16 @@ nav{
   padding-left: 50px;
 }
 .eddate1 {
-  grid-area:date1;
+  grid-area: eddate1;
 }
 .edcontent1 {
-  grid-area: content1;
+  grid-area: edcontent1;
 }
 .eddate2{
-  grid-area:date2;
+  grid-area: eddate2;
 }
 .edcontent2{
-  grid-area: content2;
+  grid-area: edcontent2;
 }
 .main1{
   background-color: white;
@@ -55,22 +55,22 @@ nav{
   padding-left: 50px;
 }
 .exdate1{
-  grid-area:date3;
+  grid-area:exdate1;
 }
 .excontent1{
-  grid-area: content3;
+  grid-area: excontent1;
 }
 .exdate2{
-  grid-area:date4;
+  grid-area:exdate2;
 }
 .excontent2{
-  grid-area: content4;
+  grid-area: content2;
 }
 .exdate3{
-  grid-area:date5;
+  grid-area:exdate3;
 }
 .excontent3{
-  grid-area: content5;
+  grid-area: excontent3;
 }
 .footer{
   background-color: white;
