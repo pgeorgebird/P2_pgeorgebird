@@ -2,19 +2,82 @@
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
     grid-template-areas: 
-    "sidebar header"
-    "sidebar nav"
-    "sidebar main"
-    "sidebar main1""
-    "sidebar footer";
+    "sidebar header header header header"
+    "sidebar nav nav nav nav nav"
+    "sidebar main main main main"
+    "sidebar date1 content1 content1 content1"
+    "sidebar date2 content2 content2 content2"
+    "sidebar main1 main1 main1 main1"
+    "sidebar date3 content3 content3 content3"
+    "sidebar date4 content4 content4 content4"
+    "sidebar date5 content5 content5 content5"
+    "sidebar footer footer footer footer";
     grid-gap: 10px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     
 
+}
+.header{
+  grid-area:header;
+}
+nav{
+   background-color: white;
+   grid-area:nav;
+}
+.main{ 
+  background-color: white;
+  grid-area: main;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+}
+.eddate1 {
+  grid-area:date1;
+}
+.edcontent1 {
+  grid-area: content1;
+}
+.eddate2{
+  grid-area:date2;
+}
+.edcontent2{
+  grid-area: content2;
+}
+.main1{
+  background-color: white;
+  grid-area:main1;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+}
+.exdate1{
+  grid-area:date3;
+}
+.excontent1{
+  grid-area: content3;
+}
+.exdate2{
+  grid-area:date4;
+}
+.excontent2{
+  grid-area: content4;
+}
+.exdate3{
+  grid-area:date5;
+}
+.excontent3{
+  grid-area: content5;
+}
+.footer{
+  background-color: white;
+  grid-area:footer;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
 }
 .sidebar{
     background-color: lightblue;
@@ -140,13 +203,6 @@ padding: 30px;
     
 
 }
-.header{
-    grid-area:header;
-}
-nav{
-     background-color: white;
-     grid-area:nav;
-}
 
 .name {
     text-align: justify;
@@ -162,13 +218,7 @@ nav{
     color: lightblue;
     padding-left: 50px;
   }
-.main{ 
-    background-color: white;
-    grid-area: main;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 50px;
-}
+
 .name2 {
     font-size: 30px;
     padding-left: 50px;
@@ -194,21 +244,6 @@ nav{
     margin-bottom: 10px ;
   }
 
-.main1{
-    background-color: white;
-    grid-area:main1;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 50px;
-}
-
-.footer{
-    background-color: white;
-    grid-area:footer;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 50px;
-}
 .end1 {
     list-style-type: none; 
     margin-bottom: 10px ;
