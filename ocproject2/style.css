@@ -232,7 +232,7 @@ padding: 30px;
     font-size: 30px;
     padding-left: 50px;
 }
-#line {
+.line {
     border-bottom:  2px solid lightblue;
     position: relative;
     width: 900px;
