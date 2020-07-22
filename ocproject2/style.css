@@ -14,7 +14,8 @@
     "sidebar exdate1 excontent1"
     "sidebar exdate2 excontent2"
     "sidebar exdate3 excontent3"
-    "sidebar footer footer";
+    "sidebar footer footer"
+    "sidebar end1 end2";
     grid-gap: 10px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
