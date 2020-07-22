@@ -12,7 +12,7 @@
     "sidebar exdate1 excontent1"
     "sidebar exdate2 excontent2"
     "sidebar exdate3 excontent3"
-    "sidebar footer footer";
+    "sidebar end1 end2";
     grid-gap: 10px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -76,6 +76,14 @@ footer{
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 50px;
+}
+.end1{
+  grid-area:end1;
+  font-size: 12px;
+}
+.end2{
+  grid-area:end2;
+  font-size: 12px;
 }
 .sidebar{
     background-color: lightblue;
