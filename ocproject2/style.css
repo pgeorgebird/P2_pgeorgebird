@@ -5,11 +5,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "sidebar header header"
-    "sidebar nav nav"
-    "sidebar main main"
-    "sidebar main1 main1"
-    "sidebar footer footer";
+    "sidebar header"
+    "sidebar nav"
+    "sidebar main"
+    "sidebar main1""
+    "sidebar footer";
     grid-gap: 10px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
