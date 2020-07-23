@@ -24,10 +24,13 @@
 }
 header{
   grid-area:header;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 nav{
    background-color: white;
    grid-area:nav;
+   
 }
 .main{ 
   background-color: white;
@@ -38,12 +41,14 @@ nav{
 }
 .eddate1 {
   grid-area: eddate1;
+  margin-top: 20px;
 }
 .edcontent1 {
   grid-area: edcontent1;
 }
 .eddate2{
   grid-area: eddate2;
+  margin-top: 20px;
 }
 .edcontent2{
   grid-area: edcontent2;
@@ -57,18 +62,21 @@ nav{
 }
 .exdate1{
   grid-area:exdate1;
+  margin-top: 20px;
 }
 .excontent1{
   grid-area: excontent1;
 }
 .exdate2{
   grid-area:exdate2;
+  margin-top: 20px;
 }
 .excontent2{
   grid-area: excontent2;
 }
 .exdate3{
   grid-area:exdate3;
+  margin-top: 20px;
 }
 .excontent3{
   grid-area: excontent3;
@@ -83,10 +91,12 @@ footer{
 .end1{
   grid-area:end1;
   font-size: 12px;
+  margin-left: 50px;
 }
 .end2{
   grid-area:end2;
   font-size: 12px;
+  margin-left: 80px;
 }
 .sidebar{
     background-color: lightblue;
@@ -191,7 +201,6 @@ footer{
   font-size: 13px;
   list-style-type: none; 
 }
-
 .date2{ 
     padding: 3px;  
     padding-bottom: 70px;
@@ -200,6 +209,7 @@ footer{
     
 
   }
+
 .icon {
 padding: 30px;
 }
@@ -235,7 +245,7 @@ padding: 30px;
 .line {
     border-bottom:  2px solid lightblue;
     position: relative;
-    width: 900px;
+    width: 750px;
     
     
   }
@@ -252,16 +262,7 @@ padding: 30px;
     list-style-type: none;
     margin-bottom: 10px ;
   }
-
-.end1 {
-    list-style-type: none; 
-    margin-bottom: 10px ;
-}
-.end2 {
-    list-style-type: none;
-    
   
-}
 .bull {
     font-size: 15px;
     text-align: justify;
@@ -270,12 +271,22 @@ padding: 30px;
 .date{
     grid-area: date;
     font-size: 12px;
+    margin-left: 50px;
+   
+
 }
 .location{
     grid-area: location;
     font-size: 12px;
+    margin-left: 62px;
 }
 .content{
     grid-area: info;
     font-size: 12px;
+    max-width: 400px;
+    margin-right: 300px;
+
+}
+.fa-circle{
+  font-size: 8px;
 }
