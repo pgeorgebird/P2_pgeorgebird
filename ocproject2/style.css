@@ -245,9 +245,7 @@ padding: 30px;
 .line {
     border-bottom:  2px solid lightblue;
     position: relative;
-    width: 750px;
-    
-    
+    width: 750px;  
   }
   #line2 {
     border-bottom:  2px solid lightblue;
