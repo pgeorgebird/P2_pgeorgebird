@@ -306,7 +306,7 @@ padding: 30px;
     margin-left: 30px;
     border-radius: 50%;
     padding: 20px;
-    
+
   }
   .bar {
     width: 300px;
@@ -318,4 +318,38 @@ padding: 30px;
   .line {
     width: 600px;
   }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .line {
+    width: 500px;
+  }
+
+  .container {
+    display: inline-flex;
+    height: 100vh;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "sidebar "
+    "main"
+    "eddate1"
+    "edcontent1"
+    "eddate2"
+    "edcontent2"
+    "main1"
+    "exdate1"
+    "excontent1"
+    "exdate2"
+    "excontent2"
+    "exdate3"
+    "excontent3"
+    "footer"
+    "end1"
+    "end2";
+}
 }
