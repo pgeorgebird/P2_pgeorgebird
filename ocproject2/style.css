@@ -553,7 +553,8 @@ padding: 30px;
     padding: 20px;
   }
   .icon {
-    margin-left: 70px;
+    margin-left: 10px;
+    font-size: 7px;
   }
   header {
     font-size: 15px;
@@ -561,8 +562,8 @@ padding: 30px;
     margin-right: 20px;
   }
   .name2 {
-    font-size: 15px;
-  }  
+    font-size: 15px;}
+    
   .container {
     height: 100vh;
     display: block;
