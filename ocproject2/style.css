@@ -402,7 +402,7 @@ padding: 30px;
 
 
   .container {
-    display: inline-flex;
+    display: flexbox;
     height: 100vh;
     flex-direction: column;
     grid-template-columns: 1fr;
@@ -488,18 +488,7 @@ padding: 30px;
   .name2 {
     font-size: 20px;
   }
-  .sidebar {
-    max-width: 450px;
-  }
-  .line {
-    width: 300px;
-  }
-  .bar {
-    width: 430px;
-  }
-  .bar1 {
-    width: 430px;
-  }
+  
   .circular--square{
     margin-left: 100px;
     border-radius: 50%;
@@ -512,6 +501,7 @@ padding: 30px;
   .container {
     height: 100vh;
     flex-direction: column;
+    max-width: min-content; 
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
