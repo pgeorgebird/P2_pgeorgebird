@@ -525,3 +525,62 @@ padding: 30px;
     "end2";
 }
 }
+
+@media only screen and (max-width: 450px) {
+
+  header {
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+  }
+  .name2 {
+    font-size: 20px;
+  }
+  .sidebar {
+    max-width: 350px;
+  }
+  .bar {
+    max-width: 300px;
+  }
+  .bar1 {
+    max-width: 300px;
+  }
+  .line {
+    max-width: 300px;
+  }
+  .circular--square{
+    margin-left: 50px;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  .icon {
+    margin-left: 70px;
+  }
+  
+  .container {
+    height: 100vh;
+    flex-direction: column;
+    max-width: min-content; 
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "sidebar "
+    "main"
+    "eddate1"
+    "edcontent1"
+    "eddate2"
+    "edcontent2"
+    "main1"
+    "exdate1"
+    "excontent1"
+    "exdate2"
+    "excontent2"
+    "exdate3"
+    "excontent3"
+    "footer"
+    "end1"
+    "end2";
+}
+}
