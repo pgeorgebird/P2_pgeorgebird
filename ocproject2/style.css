@@ -283,7 +283,6 @@ padding: 30px;
     font-size: 12px;
     max-width: 400px;
     margin-right: 300px;
-
 }
 .fa-circle{
   font-size: 8px;
@@ -526,18 +525,18 @@ padding: 30px;
 }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 420px) {
 
   header {
-    font-size: 20px;
+    font-size: 12px;
     text-align: justify;
-    margin-right: 20px;
   }
   .name2 {
-    font-size: 20px;
+    font-size: 12px;
   }
   .sidebar {
     max-width: 350px;
+    margin-right: auto;
   }
   .bar {
     max-width: 300px;
@@ -546,7 +545,7 @@ padding: 30px;
     max-width: 300px;
   }
   .line {
-    max-width: 300px;
+    max-width: 200px;
   }
   .circular--square{
     margin-left: 50px;
@@ -563,10 +562,10 @@ padding: 30px;
   }
   .name2 {
     font-size: 15px;
-  }
-  
+  }  
   .container {
     height: 100vh;
+    display: block;
     flex-direction: column;
     max-width: min-content; 
     grid-template-columns: 1fr;
