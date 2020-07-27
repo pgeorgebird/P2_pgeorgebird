@@ -556,6 +556,14 @@ padding: 30px;
   .icon {
     margin-left: 70px;
   }
+  header {
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 20px;
+  }
+  .name2 {
+    font-size: 15px;
+  }
   
   .container {
     height: 100vh;
