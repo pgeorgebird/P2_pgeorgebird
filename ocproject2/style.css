@@ -636,7 +636,7 @@ padding: 30px;
 }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 320px) {
 
   header {
     font-size: 10px;
@@ -648,20 +648,20 @@ padding: 30px;
     margin-right: 100px;
   }
   .sidebar {
-    max-width: 350px;
+    max-width: 300px;
     margin-right: auto;
   }
   .bar {
-    max-width: 300px;
+    max-width: 250px;
   }
   .bar1 {
-    max-width: 300px;
+    max-width: 250px;
   }
   .line {
     max-width: 200px;
   }
   .circular--square{
-    margin-left: 50px;
+    margin-left: 20px;
     border-radius: 50%;
     padding: 10px;
   }
