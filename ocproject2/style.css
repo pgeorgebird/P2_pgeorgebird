@@ -291,14 +291,38 @@ padding: 30px;
 @media only screen and (max-width: 2000px) {
   header {
     font-size: 40px;
+    
   }
+  .circular--square{
+    margin-left: 400px;
+  }
+
   .bar {
-    width: 400px;
+    width: 1000px;
 
   }
   .bar1 {
+    width: 1000px;
+  }
+  .icon {
+    margin-left: 300px;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .circular--square{
+    margin-left: 60px;
+  }
+
+  .bar {
     width: 400px;
   }
+  .bar1 {
+    width: 400px;
+}
+.icon {
+  margin-left: 30px;
+}
 }
 
 @media only screen and (max-width: 1050px) {
@@ -320,14 +344,17 @@ padding: 30px;
     width: 300px;
   }
   .icon {
-    margin-right: 10px;
-    font-size: 7px;
+    margin-right: 5px;
+    font-size: 10px;
   }
   .fa-theater-masks {
     margin-right: 5px;
   }
+  .fa-biking {
+    margin-left: 5px;
+  }
   .fa-book-reader {
-    margin-right: 5px;
+    margin-left: 40px;
   }
   .end2{
     max-width: 120px;
@@ -351,6 +378,15 @@ padding: 30px;
   }
   .line {
     width: 400px;
+  }
+  .fa-theater-masks {
+    margin-right: 5px;
+  }
+  .fa-biking {
+    margin-left: 5px;
+  }
+  .fa-book-reader {
+    margin-left: 5px;
   }
   .end2{
     max-width: 200px;
@@ -398,8 +434,6 @@ padding: 30px;
   .end2 {
     margin-left: 50px;
   }
-
-
   .container {
     display: flexbox;
     height: 100vh;
@@ -476,7 +510,6 @@ padding: 30px;
     "end2";
 }
 }
-
 @media only screen and (max-width: 550px) {
 
   header {
@@ -499,74 +532,6 @@ padding: 30px;
   
   .container {
     height: 100vh;
-    flex-direction: column;
-    max-width: min-content; 
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "header"
-    "nav"
-    "sidebar "
-    "main"
-    "eddate1"
-    "edcontent1"
-    "eddate2"
-    "edcontent2"
-    "main1"
-    "exdate1"
-    "excontent1"
-    "exdate2"
-    "excontent2"
-    "exdate3"
-    "excontent3"
-    "footer"
-    "end1"
-    "end2";
-}
-}
-
-@media only screen and (max-width: 420px) {
-
-  header {
-    font-size: 12px;
-    text-align: justify;
-  }
-  .name2 {
-    font-size: 12px;
-  }
-  .sidebar {
-    max-width: 350px;
-    margin-right: auto;
-  }
-  .bar {
-    max-width: 300px;
-  }
-  .bar1 {
-    max-width: 300px;
-  }
-  .line {
-    max-width: 200px;
-  }
-  .circular--square{
-    margin-left: 50px;
-    border-radius: 50%;
-    padding: 20px;
-  }
-  .icon {
-    margin-left: 10px;
-    font-size: 7px;
-  }
-  header {
-    font-size: 15px;
-    text-align: justify;
-    margin-right: 20px;
-  }
-  .name2 {
-    font-size: 15px;}
-    
-  .container {
-    height: 100vh;
-    display: block;
     flex-direction: column;
     max-width: min-content; 
     grid-template-columns: 1fr;
