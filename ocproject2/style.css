@@ -435,7 +435,7 @@ padding: 30px;
     margin-left: 50px;
   }
   .container {
-    display: flexbox;
+    display: flex;
     height: 100vh;
     flex-direction: column;
     grid-template-columns: 1fr;
@@ -734,10 +734,9 @@ padding: 30px;
   }
   .icon {
     margin-left: 25px;
-    font-size: 7px;
+    font-size: 7px;}
     
-  
-    
+
   .container {
     height: 100vh;
     display: block;
