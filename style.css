@@ -11,16 +11,9 @@ html {
     grid-template-rows: auto;
     grid-template-areas: 
     "sidebar header header"
-    "sidebar nav nav"
-    "sidebar main main"
-    "sidebar eddate1 edcontent1"
-    "sidebar eddate2 edcontent2"
-    "sidebar main1 main1"
-    "sidebar exdate1 excontent1"
-    "sidebar exdate2 excontent2"
-    "sidebar exdate3 excontent3"
-    "sidebar footer footer"
-    "sidebar end1 end2";
+    "sidebar education education"
+    "sidebar experience experience"
+    "sidebar reference reference";
     grid-gap: 10px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
