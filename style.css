@@ -4,19 +4,28 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+  display: flex;
+  grid-template-areas: 
+  "sidebar header"
+  "sidebar education"
+  "sidebar experience"
+  "sidebar footer"
+  ;
+}
 .container1 {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    display: flexbox;
     grid-template-areas: 
-    "header header"
-    "education education"
-    "experience experience"
-    "reference reference";
+    "edudate1 educontent1"
+    "edudate2 educontent2"
+    "expdate1 expcontent1"
+    "expdate2 expcontent2"
+    "expdate3 expcontent3"
+    "end2 end2";
     grid-gap: 10px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;}
+    
 header{
   grid-area:header;
   font-size: 50px;
@@ -44,13 +53,20 @@ footer{
     grid-area:sidebar;
 }
 .circular--square {
-    border-radius: 60%;
-    padding: 30px;
-    margin-left: 55px;
+    border-radius: 50%;
+   text-align: center;
   }
+.contact {
+text-align: center;}
 .nobullet {
  list-style-type: none;
  margin-left: 35px;
+}
+.aboutme {
+  text-align: center;
+}
+.hobbies {
+  text-align: center;
 }
 .data1 {
     font-size: 15px;
