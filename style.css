@@ -10,10 +10,10 @@ html {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "sidebar header header"
-    "sidebar education education"
-    "sidebar experience experience"
-    "sidebar reference reference";
+    "header header"
+    "education education"
+    "experience experience"
+    "reference reference";
     grid-gap: 10px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;}
@@ -21,55 +21,7 @@ header{
   grid-area:header;
   font-size: 50px;
   text-transform: uppercase;}
-.main{ 
-  background-color: white;
-  grid-area: main;
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-left: 50px;
-}
-.eddate1 {
-  grid-area: eddate1;
-  margin-top: 20px;
-}
-.edcontent1 {
-  grid-area: edcontent1;
-}
-.eddate2{
-  grid-area: eddate2;
-  margin-top: 20px;
-}
-.edcontent2{
-  grid-area: edcontent2;
-}
-.main1{
-  background-color: white;
-  grid-area:main1;
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-left: 50px;
-}
-.exdate1{
-  grid-area:exdate1;
-  margin-top: 20px;
-}
-.excontent1{
-  grid-area: excontent1;
-}
-.exdate2{
-  grid-area:exdate2;
-  margin-top: 20px;
-}
-.excontent2{
-  grid-area: excontent2;
-}
-.exdate3{
-  grid-area:exdate3;
-  margin-top: 20px;
-}
-.excontent3{
-  grid-area: excontent3;
-}
+
 footer{
   background-color: white;
   grid-area:footer;
@@ -114,7 +66,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
   }
-  .bar {
+.bar {
     display:block;
     width:360px;
     height: 40px;
@@ -129,9 +81,9 @@ footer{
     text-transform: uppercase;
     margin: auto;
     padding-top: 20px;  
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
+    font-family: Arial, Helvetica, sans-serif; 
+
+
   }
 .bar1 {
     display:block;
@@ -195,7 +147,7 @@ footer{
     padding-bottom: 70px;
     margin-left: 40px;
     font-size: 13px;
-    
+
 
   }
 
@@ -295,90 +247,6 @@ padding: 30px;
   }
   .icon {
     margin-left: 300px;
-  }
-}
-
-@media only screen and (max-width: 1800px) {
-  .circular--square{
-    margin-left: 60px;
-  }
-
-  .bar {
-    width: 400px;
-  }
-  .bar1 {
-    width: 400px;
-}
-.icon {
-  margin-left: 30px;
-}
-}
-
-@media only screen and (max-width: 1050px) {
-
-  .circular--square{
-    margin-left: 30px;
-    border-radius: 50%;
-    padding: 20px;
-
-  }
-  .bar {
-    width: 300px;
-
-  }
-  .bar1 {
-    width: 300px;
-  }
-  .line {
-    width: 300px;
-  }
-  .icon {
-    margin-right: 5px;
-    font-size: 10px;
-  }
-  .fa-theater-masks {
-    margin-right: 5px;
-  }
-  .fa-biking {
-    margin-left: 5px;
-  }
-  .fa-book-reader {
-    margin-left: 40px;
-  }
-  .end2{
-    max-width: 120px;
-  }
-  
-}
-
-@media only screen and (max-width: 900px) {
-
-  .circular--square{
-    margin-left: 30px;
-    border-radius: 50%;
-    padding: 20px;
-  }
-  .bar {
-    width: 300px;
-
-  }
-  .bar1 {
-    width: 300px;
-  }
-  .line {
-    width: 400px;
-  }
-  .fa-theater-masks {
-    margin-right: 5px;
-  }
-  .fa-biking {
-    margin-left: 5px;
-  }
-  .fa-book-reader {
-    margin-left: 5px;
-  }
-  .end2{
-    max-width: 200px;
   }
 }
 
