@@ -57,10 +57,18 @@ footer{
    text-align: center;
   }
 .contact {
-text-align: center;}
+}
+.contact p {
+  margin: 0 10px;
+}
+.contact h2 {
+  text-align: center;
+}
+
 .nobullet {
  list-style-type: none;
  margin-left: 35px;
+ margin-bottom: 10px;
 }
 .aboutme {
   text-align: center;
@@ -201,14 +209,14 @@ padding: 30px;
 }
 .line {
     border-bottom:  2px solid lightblue;
-    position: relative;
     width: 750px;  
+    margin-top: -20px;
   }
   #line2 {
     border-bottom:  2px solid lightblue;
-    position: relative;
     width: 100px; 
     margin-left: 50px;
+    margin-top: -20px;
   }
 .caps {
     font-size: 20px;
@@ -233,7 +241,6 @@ padding: 30px;
 .location{
     grid-area: location;
     font-size: 12px;
-    margin-left: 62px;
 }
 .content{
     grid-area: info;
@@ -245,7 +252,17 @@ padding: 30px;
   font-size: 8px;
 }
 
-@media only screen and (max-width: 2000px) {
+.edu1 li {
+  display: flex;
+
+}
+
+h3 {
+  margin-top:  0;
+}
+
+
+/* @media only screen and (max-width: 2000px) {
   header {
     font-size: 40px;
     
@@ -292,6 +309,11 @@ padding: 30px;
   .edcontent1 {
     margin-left: 50px;
   }
+  h3 {
+    margin-top:  0;
+    font-size: 3rem;
+  }
+
   .edcontent2 {
     margin-left: 50px;
   }
@@ -331,4 +353,4 @@ padding: 30px;
     "excontent3"
     "footer"
     "end1"
-    "end2";} }
+    "end2";} } */
