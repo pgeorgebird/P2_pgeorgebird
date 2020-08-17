@@ -6,24 +6,10 @@ html {
 }
 body {
   display: flex;
-  grid-template-areas: 
-  "sidebar header"
-  "sidebar education"
-  "sidebar experience"
-  "sidebar footer"
   ;
 }
 .container1 {
     display: flexbox;
-    grid-template-areas: 
-    "edudate1 educontent1"
-    "edudate2 educontent2"
-    "expdate1 expcontent1"
-    "expdate2 expcontent2"
-    "expdate3 expcontent3"
-    "end2 end2";
-    grid-gap: 10px;
-    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;}
     
 header{
@@ -51,28 +37,28 @@ footer{
 .sidebar{
     background-color: lightblue;
     grid-area:sidebar;
+    width: 300px;
 }
 .circular--square {
-    border-radius: 50%;
-   text-align: center;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 50px;
   }
-.contact {
-}
 .contact p {
   margin: 0 10px;
+  text-align: left;
+
+
 }
 .contact h2 {
   text-align: center;
 }
 .aboutme p {
   margin: 0 10px;
+  text-align: justify;
 }
 .aboutme h2 {
   text-align: center;
-}
-.aboutme p {
-  text-align: center;
-  margin: 30px;
 }
 
 .nobullet {
@@ -85,6 +71,7 @@ footer{
 }
 .hobbies {
   text-align: center;
+  margin-top: 450px;
 }
 .data1 {
     font-size: 15px;
@@ -101,9 +88,8 @@ footer{
     padding: 30px;
   }
 .bar {
-    display:block;
-    width:360px;
-    height: 40px;
+    display: flexbox;
+    width: 300px;
     font-size: 30px;
     float: none;
     margin-left:5px;
@@ -146,36 +132,6 @@ footer{
 .fa-book-reader {
     margin: 7px; 
 }
-#bullet {
-    margin-left: 20px;
-    font-size: 13px;
-    
-  }
-.bullet1 {
-    margin-left: 70px;
-    font-size: 13px;
-    list-style-type: none;
-  }
-.bullet2 {
-    margin-left: 87px;
-    font-size: 13px;
-    list-style-type: none;
-    
-}
-#bullet3 {
-  margin-left: 20px;
-  font-size: 13px;
-  list-style-type: none;   
-}
-.bullet4 {
-  margin-left: 80px;
-  font-size: 13px; 
-}
-.bullet5 {
-  margin-left: 80px;
-  font-size: 13px;
-  list-style-type: none; 
-}
 .icon {
 padding: 30px;
 }
@@ -186,7 +142,6 @@ padding: 30px;
     
 
 }
-
 .name {
     text-align: justify;
     font-weight: 200;
@@ -224,22 +179,10 @@ padding: 30px;
     list-style-type: none;
     margin-bottom: 10px ;
   }
-  
-.bull {
-    font-size: 15px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif; 
-}
-.date{
-    grid-area: date;
-    font-size: 12px;
-    margin-left: 50px;
-   
-
-}
 .location{
     grid-area: location;
     font-size: 12px;
+    margin-bottom: 20px;
 }
 
 .fa-circle{
@@ -257,14 +200,23 @@ padding: 30px;
 
 }
 .date1 {
-  width: 250px;
+ margin-right: 10px;
+ text-align: justify;
+ white-space: nowrap;
 }
-
+.fa-dot-circle {
+  padding: 5px;
+}
+.fa-circle {
+  padding: 5px;
+}
 h3 {
   margin-top:  0;
 }
 .content2 {
   margin-left: 200px;
+  width: 400px;
+ 
 }
 .content3 li {
   display: flex;
