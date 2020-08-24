@@ -12,15 +12,17 @@ body {
     display: flexbox;
     font-family: Arial, Helvetica, sans-serif;}
     
-header{
-  grid-area:header;
+header {
   font-size: 50px;
   text-transform: uppercase;
+  grid-area: "header";
+ 
 }
+
 
 .sidebar{
     background-color: lightblue;
-    grid-area:sidebar;
+    grid-area:"sidebar";
     width: 300px;
 }
 .circular--square {
@@ -78,9 +80,6 @@ header{
     margin: auto;
     padding-top: 20px;  
     font-family: Arial, Helvetica, sans-serif; 
-
-
-
   }
 
 .icon {
@@ -141,6 +140,16 @@ h1 {
     width: 3%;
     font-size: 8px;
   }
+  .education {
+    grid-area: "education";
+  }
+  .experience {
+    grid-area: "experience";
+  }
+  .reference {
+    grid-area: "reference";
+  }
+
   .article-entrytitle {
     margin-left: 5%;
     margin-top: 10%;
@@ -166,10 +175,9 @@ h3 {
 }
 .entrycontent {
   width: 40%;
-  margin-left: -5%;
-
- 
+  margin-left: -5%; 
 }
+
 .entryreference {
   display: flex;
 }
@@ -183,25 +191,82 @@ h3 {
 }
 
 
- @media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1150px) {
   header {
     font-size: 40px;}
 
 }
-/*@media only screen and (max-width: 800px) {
-  .body {
-    flex-direction: column;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "sidebar "
-    "articlecontainer"
-   ;} 
+@media only screen and (max-width: 1000px) {
+  header {
+    font-size: 30px;}
+}
+
+@media only screen and (max-width: 950px) {
+  header {
+    font-size: 25px;
+  }
+  .occupationname {
+    font-size: 20px;
+    margin-left: 3%;
+  }
+  .line {
+    width: 80%;  
+  }
+  .entrydate {
+    margin-left: 5%;
+    font-size: 12px;
+  }
+  .entrycontent {
+    width: 30%;
+    margin-left: 25%;
+    font-size: 12px;
+  }
+  .entryreference > section {
+    margin-left: 10%;
+    font-size: 12px;
     
+  }
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "sidebar"
+    "education"
+    "experience"
+    "reference"
+    "ref1"
+    "ref2"
+   ;
+  } 
+  header {
+    font-size: 25px;
+  }
+  .line {
+    width: 100%;  
+    margin-top: -20px;
+    margin-left: 50px;
+  }
+  .occupationname {
+    font-size: 20px;
+  }
+  .entrycontent {
+    width: 40%;
+    margin-left: 20%;
+  }
+   .sidebar{  
+    width: 100%;
+}  
+}
+
+
+
+/*@media only screen and (max-width: 800px) {
 
   header {
     margin-left: 70px;
